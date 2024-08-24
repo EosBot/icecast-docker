@@ -1,6 +1,6 @@
 VERSIONS =	2.4.4 2.5-beta3
 TARBALLS = $(foreach version,$(VERSIONS),icecast-$(version).tar.gz)
-IMAGE = ghcr.io/libretime/icecast
+IMAGE = thalisdev/icecast
 
 all: build
 
